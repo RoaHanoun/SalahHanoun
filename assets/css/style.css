@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+.w_100{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-repeat: no-repeat;
+    background-image: url(../img/6.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    opacity: 1;
+    position: relative;
+    background-attachment: fixed; 
+    z-index: 99;
+}
+header .items a{
+    color: #fff;
+}
+header .nav-icon{
+    text-align: center;
+}
+header .nav-icon i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.logo:hover  {
+    color: white;
+}
+.navbar-nav{
+    justify-content: center;
+}
+.navbar-nav .dropdown-menu{
+/* color: white; */
+background-color: black;
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.desc1{
+    background-color: beige;
+    padding: 50px;
+}
+.whoIam {
+text-align: center;
+
+}
+
+.whoIam h2{
+    text-transform: capitalize;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.whoIam p{
+    font-size: 18px;
+}
+.whoIam span {
+ text-transform: uppercase;
+}
+/* *********************************************************************************************************** */
+.Updates{
+    text-align: center;  
+    background-color: beige;
+    padding-bottom: 100px;
+}
+.Updates h2{
+    color: #fff;
+    background-color: rgba(0, 0, 1, 0.84); 
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
+}
+.Updates .carousel{
+    padding-top: 20px;
+    width: 50%;
+    margin-left:25% ;
+}
+/* ***************************************************************************** */
+
+
+/* ******************************************************************* */
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.maps h2 {
+    color: #fff;
+    background-color: black;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+.maps, .lets-go{
+ 
+    background-color:beige;
+}
+.map__card{
+    background-color: #fff;
+    border: 2px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.map__card:hover{
+    transform: scale(1.1);
+}
+
+.map__card:hover.map__image{
+    opacity: 0.9;
+}
+.map__info{
+    padding: 1em;
+}
+.map__category{
+    font-size: 0.8em;
+    color: black;
+}
+.map__title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: forestgreen;
+}
+.more-details:hover{
+    color: gray;
+}
+/* *********************************************** */
+
+.tool{
+    background-color: beige;
+}
+.tool .title, .lets-go .title{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding-top: 40px;
+}
+.tool .card {
+width: 25%;
+margin: 30px;
+}
+/* .imges_info{
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+    float: left;
+} */
+/* .des h3{
+    color: FireBrick;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+}
+.des p{ 
+color: cadetblue;
+font-size: larger;
+font-weight: 500;
+} */
+
+.lets-go .card{
+    width: 70%;
+    margin: 20px 100px;
+    /* margin: 20px; */
+}
+
+.lets-go .card .card-body a{
+    color: black;
+    background-color: rgb(123, 123, 225);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition: 0.7s ease; /*للتحريك شوي شوي بس اجي عندها*/
+    text-align: center;
+    margin-top: 5px;
+}
+.lets-go .card .card-body a:hover{
+    background-color: rgb(176, 209, 232);
+    transform: scale(1.1);
+}
+/* ************************************* */
+.footer{
+    background-color: black;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.footer .social-icons a{
+    font-size: 1em;
+    padding: 0 12px 0 0;
+    color: #fff;
+}
+/* .imge{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 5px;
+} */
